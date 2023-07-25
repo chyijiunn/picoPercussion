@@ -12,4 +12,3 @@ def beep(timer):
     buzzer_pin.value(buzzer_state)
 
 timer.init(period=1000, mode=machine.Timer.PERIODIC, callback=beep)
-
